@@ -138,7 +138,7 @@
       <label for="textarea" class="form-label">Leave a Message </label><span style="font-weight: bold;"> *Required </span>
       <textarea class="form-control" id="textarea" name="textarea" rows="3"></textarea>
     </div>
-    <div class="g-recaptcha" data-sitekey="6Ldet5QbAAAAAOZOrHqZoWFlMgvxPlE02AAcFq0U"></div>
+    <div class="g-recaptcha" data-sitekey="public_key_here"></div>
       <br/>
 
       <?php

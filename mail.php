@@ -2,7 +2,7 @@
 
 if (isset($_POST["email"])){
     $captcha = $_POST["g-recaptcha-response"];
-    $secretkey = "6Ldet5QbAAAAADjVjqTk9nyJQ8Xbdbb5ptU2QaEc";
+    $secretkey = "private_key_here";
     $url = 'https://www.google.com/recaptcha/api/siteverify?secret='.urldecode($secretkey).'&response='.urldecode($captcha);
     $response = file_get_contents($url);
     $responseKey = json_decode($response,TRUE);
